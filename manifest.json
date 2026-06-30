@@ -13,7 +13,10 @@
             "postcss": true,
             "minified": true
         },
-        "usingComponents": true
+        "usingComponents": true,
+        "optimization": {
+            "subPackages": true
+        }
     },
     "h5": {
         "title": "答题竞赛",
