@@ -1,0 +1,27 @@
+﻿{
+	"name": "quiz-frontend",
+	"appid": "",
+	"description": "知识问答竞赛小程序",
+	"versionName": "1.0.0",
+	"versionCode": "100",
+	"transformPx": false,
+	"mp-weixin": {
+		"appid": "",
+		"setting": {
+			"urlCheck": false,
+			"es6": true,
+			"postcss": true,
+			"minified": true
+		},
+		"usingComponents": true,
+		"optimization": {
+			"subPackages": true
+		}
+	},
+	"h5": {
+		"title": "答题竞赛",
+		"router": {
+			"mode": "hash"
+		}
+	}
+}
