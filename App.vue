@@ -1,8 +1,16 @@
-﻿<script setup>
+<script setup>
 import { onLaunch, onShow, onHide } from '@dcloudio/uni-app'
 
 onLaunch(() => {
 	console.log('App Launch')
+	// 全局状态管理
+	if (!getApp().globalData) {
+		getApp().globalData = {
+			userId: null,
+			userInfo: null,
+			isLoggedIn: false
+		}
+	}
 })
 onShow(() => {
 	console.log('App Show')
